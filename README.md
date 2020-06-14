@@ -5,6 +5,6 @@
 [object_detection.py](object_detection.py) : Detects objects based on color and creates a bounding box around them  
 [cvpubpl.py](cvpubpl.py) : Creates bounding box around the largest contour (landing platform preferably) and publishes the midpoint coordinate to cvdrone.py  
 [cvdrone.py](cvdrone.py) : Helps to control the drone to align camera center with midpoint subscribed from cvpubpl.py. Here p (proportional factor) controller to used to control the velocity.   
-
+[camera.launch](camera.launch) : Makes webcam a rosnode such that any code written will work on gazebo as well  
 
 
