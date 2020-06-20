@@ -30,7 +30,8 @@ def assign(data):
     print(del_X)
     print("Delta_Y: "),
     print(del_Y)
-    print('Pixel Dist: ', s)
+    print('Pixel Dist: '),
+    print(s)
     print('------------------------------')
     
     setvel_client = rospy.Publisher('/mavros/setpoint_velocity/cmd_vel',TwistStamped, queue_size=1)
