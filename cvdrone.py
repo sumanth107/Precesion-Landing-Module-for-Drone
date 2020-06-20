@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-#edited by $umanth
+#@uthor : Sumanth Nethi
 import rospy
 import numpy as np
 from geometry_msgs.msg import PoseStamped
