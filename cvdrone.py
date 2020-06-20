@@ -38,7 +38,7 @@ def assign(data):
 
     velocity_msg.twist.linear.x = del_X*0.02
     velocity_msg.twist.linear.y = del_Y*0.02 
-    if s < 110:
+    if s < 200:
 	velocity_msg.twist.linear.z = -1
 
     setvel_client.publish(velocity_msg)
